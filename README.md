@@ -1,25 +1,7 @@
-# ReduxSimpleStarter
+Learning about higher order components with this simple authentication project.
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+User needs to login to access the Resources page 
 
-###Getting Started###
+If user is not logged on attemp to access Resources, app wil redirect them back to home page 
 
-There are two methods for getting started with this repo.
-
-####Familiar with Git?#####
-Checkout this repo, install dependencies, then start the gulp process with the following:
-
-```
-	> git clone git@github.com:StephenGrider/ReduxSimpleStarter.git
-	> cd ReduxSimpleStarter
-	> npm install
-	> npm start
-```
-
-####Not Familiar with Git?#####
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
-```
-	> npm install
-	> npm start
-```
+On logging out user navigated to home so Resources data is not left on the screen
